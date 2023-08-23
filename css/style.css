@@ -223,19 +223,24 @@ header {
   background-color: var(--light-three);
   overflow: hidden;
   position: relative;
+  
 }
 
 nav {
   width: 100%;
+  background-color: var(--light-three);
   position: relative;
   z-index: 50;
+  position: fixed;
+  top: 0;
 }
 
 nav .container {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
+  height: 4rem;
   align-items: center;
+  
 }
 
 .logo {
@@ -278,7 +283,7 @@ nav .container {
 }
 
 .hamburger-menu {
-  width: 2.7rem;
+  width: 2.5rem;
   height: 3rem;
   z-index: 100;
   position: relative;
@@ -1498,7 +1503,7 @@ header .circle {
   }
 
   nav .container {
-    height: 4.5rem;
+    height: 3.5rem;
   }
 
   .header-content .container.grid-2 {
